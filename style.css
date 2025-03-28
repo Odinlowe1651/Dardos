@@ -1,0 +1,114 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #c6e0ec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label, p {
+    margin-bottom: 5px;
+    color: #00090c;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e2ebe6;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #00e1ff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Canvas y sección de juego */
+  #dartboard {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #fcfcfd;
+    border-radius: 50%;
+    background: #65d4e7;
+  }
+  
+  .scoreboard {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para la lista de resultados */
+  #resultados {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #resultados li {
+    background: #e9e9e9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #aeebf3;
+  }
+  
+  .actions button.edit {
+    background: #107c97;
+  }
+  
+  .actions button.delete {
+    background: #dc3545;
+  }
+  
+  
