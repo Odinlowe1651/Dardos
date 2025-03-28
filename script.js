@@ -4,12 +4,12 @@
 // Configuración de Firebase
 // ----------------------------
 const firebaseConfig = {
-    apiKey: "AIzaSyCJwQqzR3MyvvcD1KiY7e6M02eyTLKF6KM",
-    authDomain: "juegoviernes-ab613.firebaseapp.com",
-    projectId: "juegoviernes-ab613",
-    storageBucket: "juegoviernes-ab613.firebasestorage.app",
-    messagingSenderId: "248309204234",
-    appId: "1:248309204234:web:c11a9992652a7d9714a6f3"
+    apiKey: "AIzaSyCFd1cvTI2Upd3zpEETxvzp7fRTKVdeqTQ",
+    authDomain: "dardos-a95b2.firebaseapp.com",
+    projectId: "dardos-a95b2",
+    storageBucket: "dardos-a95b2.firebasestorage.app",
+    messagingSenderId: "850308611572",
+    appId: "1:850308611572:web:d8393cdc17f5b6fb7e8da1"
   };
   
   // Inicializar Firebase
