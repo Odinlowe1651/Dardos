@@ -1,4 +1,4 @@
-/* script.js */
+
 
 // ----------------------------
 // Configuración de Firebase
