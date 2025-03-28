@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juego de Dardos</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase App (Compatibilidad para versiones anteriores) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <!-- Firebase Firestore (Compatibilidad) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Juego de Dardos</h1>
+
+    <!-- Sección de inicio del juego -->
+    <section id="iniciarSeccion">
+      <label for="nombreJugador">Ingresa tu nombre:</label>
+      <input type="text" id="nombreJugador" placeholder="Nombre del jugador" required>
+      <button id="btnIniciar">Iniciar Juego</button>
+    </section>
+
+    <!-- Sección del juego -->
+    <section id="juegoSeccion" class="hidden">
+      <div class="scoreboard">
+        <p>Puntaje: <span id="puntajeActual">0</span></p>
+        <p>Dardos restantes: <span id="dardosRestantes">5</span></p>
+      </div>
+      <canvas id="dartboard" width="300" height="300"></canvas>
+      <div class="controls">
+        <button id="btnFinalizar">Finalizar Juego</button>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Sección CRUD: Mostrar resultados -->
+    <section id="resultadosSeccion">
+      <h2>Resultados Guardados</h2>
+      <ul id="resultados">
+        <!-- Aquí se mostrarán los registros de Firebase -->
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
